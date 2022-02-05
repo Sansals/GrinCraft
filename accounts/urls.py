@@ -1,0 +1,9 @@
+from django.urls import path, include
+from .views import *
+
+urlpatterns = [
+    path('', redirect_user, name='redirect'),
+    path('signup/', create_user, name='signup'),
+    path('auth1/', send_code, name = 'send_code'),
+    path('confirm/', confirmation_user, name='confirmation_user'),
+]

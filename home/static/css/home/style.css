@@ -1,0 +1,173 @@
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1450px!important;
+}
+}
+
+.box{
+    width: 500px;
+    padding: 20px 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text_align: center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.box input[type="text"],.box input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 400px;
+    margin: 23px auto;
+    border-color: #2ecc71;
+
+}
+
+.box button[type = 'submit']{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box button[type = 'submit']:hover{
+    background: #2ecc71;
+}
+
+.text{
+    color:red;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    color: #414141!important;
+    margin-right: 50px!important;
+}
+
+.nav-item{
+    margin-right:30px;
+    font-weight: 600;
+}
+
+.buttons{
+    color:#fff;
+    border-radius:3px;
+    background-color:#ffffff;
+    background-image: linear-gradient(to right,#9861da 0%,#8656d3 100%);
+    border:none;
+    padding: 8px 25px;
+}
+.buttons:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttons-light{
+    color:#1a1a1a;
+    border-radius:3px;
+    background-color:rgba(0, 0, 0, 0.09);
+    border:none;
+    padding: 8px 25px;
+}
+.buttons-light:hover{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.header{
+    background:url(../../img/hitech.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-opacity: 0.1;
+
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+
+    height:700px;
+
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.header-text_h1{
+    color:#414141;
+    font-size:40px;
+    font-weight: 600;
+    letter-spacing:1,5px
+}
+
+.header-text_p{
+    opacity:0,8;
+    margin-bottom:20px;
+}
+
+.header-text_rules{
+    color:#414141;
+    font-size:40px;
+    font-weight: 700;
+    Letter-spacing:1,5px;
+    text-align:center;
+}
+
+.p-text_rules{
+    color: #414141;
+    font-size: 27px;
+    font-weight: 550;
+    Letter-spacing:1,5px;
+    text-align:center;
+}
+
+.rules1{
+    border:2px solid #414141;
+    padding: 10px 35px;
+    margin-bottom: 15px;
+}
+
+d {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rul_1 {
+    margin-bottom: 7px;
+}
+
+.punish {
+    color: #f0506e;
+    margin-bottom: 10px;
+}
