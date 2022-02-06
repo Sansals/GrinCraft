@@ -2,5 +2,12 @@ body{
     background:#34495e;
 }
 .box .error_text{
+    color:#740000;
+    font-weight:650;
+    font-size:15px;
+    text-align: center;
+}
+.box span{
+    color: white;
 
 }

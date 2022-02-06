@@ -26,4 +26,8 @@ class RegistrForm(UserCreationForm):
         fields = ('username', 'email', 'password1', 'password2')
 
 class Confirmation_code(forms.Form):
-    auth_code = forms.CharField(label='Код подтверждения', widget=forms.TextInput(attrs={'class': 'form-input'}))
+    conf_code = forms.CharField(label='Код подтверждения', widget=forms.TextInput())
+
+class AuthenticationUser(AuthenticationForm):
+    username = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Логин'}))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder': 'Пароль'}))

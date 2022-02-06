@@ -42,8 +42,11 @@
         <a class="nav-link disabled" href="#">Донат</a>
       </li>
     </ul>
-
-      <a href="" class="buttons">Начать игру</a>
+      {% if user.is_authenticated == False  %}
+          <a href="{% url 'signup' %}" class="buttons">Начать игру</a>
+      {% else %}
+          <a href="" class="buttons">Личный кабинет</a>
+      {% endif %}
   </div>
       </div>
     </nav>
