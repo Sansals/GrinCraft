@@ -11,3 +11,27 @@ body{
     color: white;
 
 }
+h1{
+    text-align:center;
+    color:#211111;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+.menu{
+    background-color: #white;
+    position:absolute;
+    border:solid 2px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+.list-group{
+    margin: 30px 25px;
+    position:absolute;
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 410;
+
+}

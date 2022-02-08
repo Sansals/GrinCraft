@@ -1,0 +1,19 @@
+{% extends "wrapper.html" %}
+
+{% block title %}Добро пожаловать{% endblock %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'accounts/css/style.css' %}" type="text/css">
+<h1>Добро пожаловать на GrinCraft</h1>
+<div class="list-group">
+  <span class="help-text">Полезные страницы:</span>
+  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+    ээээээ
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">ааааа</a>
+  <a href="#" class="list-group-item list-group-item-action">уууууу</a>
+  <a href="#" class="list-group-item list-group-item-action">ыыыыыыыы</a>
+  <a class="list-group-item list-group-item-action disabled">дзыыыынннн</a>
+</div>
+<div class="content"></div>
+{% endblock %}

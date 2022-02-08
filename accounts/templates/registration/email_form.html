@@ -7,12 +7,10 @@
 <link rel="stylesheet" href="{% static 'accounts/style_accounts.css' %}" type="text/css">
 <form class="box" method="POST">
     {% csrf_token %}
-    <h1>Подтверждение</h1>
-    {{form.conf_code}}
+    <h1>Добавление email</h1>
+    {{form.email}}
     <span class="error_text">{{error}}</span>
-    <button type="submit">Подтвердить!</button>
-    <span>Код действителен в течение 2 минут </span><br>
-    <a href="{% url 'send_code' %}" class="url_text">Отправить снова</a>
+    <button type="submit">Добавить!</button>
 </form>
 
 {% endblock %}

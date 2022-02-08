@@ -31,3 +31,7 @@ class Confirmation_code(forms.Form):
 class AuthenticationUser(AuthenticationForm):
     username = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Логин'}))
     password = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder': 'Пароль'}))
+
+class EmailForm(forms.Form):
+    email = forms.EmailField(widget=forms.TextInput(attrs={'placeholder':'Введите адрес электронной почты'}))
+

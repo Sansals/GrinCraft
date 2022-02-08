@@ -1,0 +1,104 @@
+body{
+    background: #d5d5d5;
+}
+
+h1{
+    text-align:center;
+    color:#211111;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+.list-group{
+    margin: 30px 25px;
+    position:absolute;
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 410;
+    box-shadow: -2px -2px 2px 2px rgba(0, 0, 0, .125);
+}
+
+.list-group .help-text{
+    margin-bottom:6px;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:1.2px;
+    background:#9f9f9f;
+}
+.list-group-item {
+    border-radius: 3px;
+}
+
+.block-body{
+    position: absolute;
+    border: 2px solid;
+    margin: 30px;
+    margin-left: 600px;
+    width:850px;
+    height:450px;
+    margin-bottom:40px;
+    background-color: #e9ecef;
+    box-shadow: -2px -2px 2px 2px rgba(0, 0, 0, .125);
+    border-radius:15px;
+}
+
+.block-body .showskin{
+    border:2px solid;
+    margin-top:30px;
+    margin-left: 15px;
+    margin-right: 450px;
+    height: 215px;
+    border-radius:15px;
+    position: absolute;
+}
+.block-body .showskin .img_skin{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border-radius:15px;
+}
+.block-body .player-info{
+    position:absolute;
+    margin-left: 400px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #384764;
+}
+.block-body .payitpls{
+    margin-top:250px;
+    margin-left:400px;
+    font-size:18px;
+    font-weight:500;
+    color: #384764;
+}
+.block-body .player-info .info{
+    font-weight: 550;
+    color:#384764;
+}
+
+
+.block-body li{
+    list-style-type: none;
+    margin-bottom:10px;
+}
+.block-body .text-block{
+    margin-left:10px;
+    margin-top:35px;
+    font-size: 18px;
+    color: #384764;
+
+}
+.block-body .text-block span{
+    font-size:19px;
+    font-weight: 650;
+    letter-spacing:0.5px;
+}
+.block-body .text-block .change{
+    margin-left: 10px;
+    padding: 4px 10px;
+    font-size: 17px;
+}
+.list-group .logout{
+    border:2px solid rgba(0,0,0,.2);
+}
+

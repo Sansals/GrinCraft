@@ -1,0 +1,26 @@
+body{
+    background: #d5d5d5;
+}
+
+h1{
+    text-align:center;
+    color:#211111;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+.list-group{
+    margin: 30px 25px;
+    position:absolute;
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 410;
+
+}
+.list-group .help-text{
+    margin-bottom:6px;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:1.2px;
+
+}

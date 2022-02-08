@@ -1,6 +1,6 @@
 {% extends "wrapper.html" %}
 
-{% block title %}{{ title }}{% endblock %}
+{% block title %}Главная страница{% endblock %}
 {% load static %}
 
 {% block content %}
@@ -15,7 +15,7 @@
                 {% if user.is_authenticated == False  %}
                     <a href="{% url 'signup' %}" class="buttons mr-3">Зарегистрироваться</a>
                 {% endif %}
-                <a href="" class="buttons-light">Скачать лаунчер</a>
+                <a href="{% url 'welcome' %}" class="buttons-light">Скачать лаунчер</a>
             </div>
           </div>
         </div>

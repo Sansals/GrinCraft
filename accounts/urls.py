@@ -7,4 +7,7 @@ urlpatterns = [
     path('auth1/', send_code, name = 'send_code'),
     path('confirm/', confirmation_user, name='confirmation_user'),
     path('login/', login_user, name='login'),
+    path('logout/', logout_func, name='logout'),
+    path('welcome/', signup_complete, name='welcome'),
+    path('emailadd/', emailadd, name='emailadd')
 ]

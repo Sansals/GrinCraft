@@ -1,0 +1,38 @@
+{% extends "wrapper.html" %}
+
+{% block title %}Профиль{% endblock %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'personalroom/css/style.css' %}" type="text/css">
+<h1>Личный кабинет GrinCraft</h1>
+<div class="list-group">
+  <span class="help-text">НАСТРОЙКИ</span>
+  <a href="{% url 'profile' %}" class="list-group-item list-group-item-action active" aria-current="true">
+    Личный кабинет
+  </a>
+  <a href="{% url 'profile-info' %}" class="list-group-item list-group-item-action">Информация</a>
+  <a href="#" class="list-group-item list-group-item-action">Безопасность</a>
+  <a href="" class="list-group-item list-group-item-action">Платные статусы</a>
+  <a href="{% url 'logout' %}" class="list-group-item list-group-item-action logout">Выйти</a>
+</div>
+
+
+<div class="block-body container">
+  <div class="showskin">
+      <img class="img_skin" src="{% static 'personalroom/img/skins/steave.png' %}" alt="Ваш скин на сервере">
+
+  </div>
+  <div class="player-info">
+        <ul>
+          <li>Игровой ник: <span class="info">{{username}}</span></li>
+          <li>Игровой баланс: <span class="info">$30</span></li>
+          <li>Кошелёк: <span class="info">0р</span></li>
+          <li>Статус: <span class="info">Игрок</span></li>
+          <li>Последнее изменения скина: <span class="info">Никогда</span></li>
+        </ul>
+  </div>
+  <div class="payitpls">Хотите выделиться среди игроков, но не можете найти достойный скин? Приобретите один из платных статусов и загляните в наш каталог скинов!</div>
+</div>
+{% endblock %}
