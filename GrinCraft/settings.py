@@ -23,7 +23,7 @@ LOGIN_URL = 'login'
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-2_hc_hx@y9f=_s&@#6ib+zp8$n)1&nm627sw!p#&*aku^tjrkx'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'GrinCraft',
         'USER': 'Sansals',
-        'PASSWORD': 'Smoking.2019',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
